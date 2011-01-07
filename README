@@ -1,1 +1,3 @@
-Link gvimrc and vimrc to ~/.gvimrc and ~/.vimrc respectively.
+Clone to ~.vim/
+
+Link gvimrc and vimrc as ~/.gvimrc and ~/.vimrc respectively.
