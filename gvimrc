@@ -1,1 +1,3 @@
-:colorscheme ir_black
+colorscheme ir_black
+set anti
+set gfn=Monaco:h13

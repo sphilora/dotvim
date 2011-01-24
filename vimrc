@@ -10,6 +10,10 @@ filetype plugin indent on
 
 set hidden
 
+set number
+highlight LineNr guibg=grey
+
+
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2 
@@ -26,6 +30,8 @@ set title
 
 set ignorecase
 set smartcase
+
+set foldmethod=syntax
 
 set wildmenu
 set wildmode=list:longest
