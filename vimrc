@@ -1,7 +1,7 @@
 filetype off
 
-call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 syntax on
 
@@ -31,7 +31,10 @@ set title
 set ignorecase
 set smartcase
 
-set foldmethod=syntax
+" Note, perl automatically sets foldmethod in the syntax file
+autocmd Syntax * setlocal foldmethod=syntax
+autocmd Syntax * normal zR
+
 
 set wildmenu
 set wildmode=list:longest
